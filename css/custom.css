@@ -1,0 +1,104 @@
+.rounded {
+    border-radius: 10px!important;
+}
+.bg-none{
+    background: transparent!important;
+}
+.pricing-head{
+    border: 1px solid #f2f2f2!important;
+    border-radius: 18px;
+}
+.p-head {
+    padding: 50px 40px 0px 40px;
+}
+.p-body {
+    padding: 10px 40px 50px 40px;
+}
+.pricing-head span{
+    font-size: 60px;
+    font-weight: 500;
+    color: #262626;
+    font-family: var(--thm-font);
+}
+.pricing-head .font-md{
+    font-size: 16px;
+    font-weight: 400;
+    line-height:25px;
+    color: #999;
+}
+.pricing-head hr{
+    background: #e3e3e3;
+
+}
+
+
+/**********************************************/
+.text-gold {
+    color: #ffaa17!important;
+}
+
+.business-card-features .how-it-works-card__icon {
+    font-size: 48px;
+    padding-top: 50px;
+}
+
+.digital-business-card .how-it-works-card:hover {
+    background: #fff;
+}
+
+.how-it-works img {
+    width: 100px !important;
+}
+
+.service-block .inner-box:hover h4 a {
+   color: #fff !important;
+}
+
+.service-block-two .inner-box .text:hover{
+   color: #e3e3e3;
+}
+.btn-sm-custom{
+    padding: 10px 30px!important;
+}
+.font-weight-600{
+    font-weight: 600;
+}
+
+
+
+/*  */
+.btn-style-two .btn-title {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    z-index: 1;
+    letter-spacing: 0.05em;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding: 12px 40px;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:424px){
+    .service-details .text-content p {
+        text-align: justify !important;
+    }
+    .service-block .inner-box h6 {
+        margin: 0;
+        margin-top: 70px!important;
+        font-size: 20px!important;
+    }
+    .service-block .inner-box {
+        padding: 25px 15px;
+    
+    }
+.bulksms{
+    margin: 0 !important;
+}
+
+ 
+}
